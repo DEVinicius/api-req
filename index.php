@@ -1,24 +1,10 @@
 <?php
 //API URL example
-$url = "https://eearncash.info/smm-api/database/createOrder";
+$url = "url";
 
 //Array example
 $data = json_encode([
-    "id" => 243434664699500443,
-    "type" => "like",
-    "link" => "ssss",
-    "image" => "ddd",
-    "quantity" => 1,
-    "gender" => "male",
-    "location" => "qqq",
-    "is_advertiser" => 1,
-    "status" => "dddd",
-    "payment_status" => "Pagamento Pendente",
-    "announcement_service_id" => 1,
-    "user_id" => 1,
-    "limit" => "ff",
-    "ad_in_moderation" => "Aceito",
-    "order_id" => 1
+    
 ]);
 
 // Create a new cURL resource
